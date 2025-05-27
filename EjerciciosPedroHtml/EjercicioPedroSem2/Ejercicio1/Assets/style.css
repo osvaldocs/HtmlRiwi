@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+}
+
+h3{
+font-size: x-large;
+}
+
+p{
+    font-family: Tahoma, sans-serif;
+}
+
+#precio{
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)
+}
+
+#boton{
+    background-color: darkslategrey; 
+    border-radius: 5px;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+
+#boton:hover{
+    transform: scale(1.2);
+    background-color: rgb(12, 143, 160);
+    color: rgb(255, 255, 255);  
+}
+#resma{
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    background-color: darkseagreen;
+    border-radius: 15px;
+    border: 8px solid rgb(12, 143, 160);
+    width: 300px;
+    padding: 20px;
+    margin: 60px auto;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 7);
+}
+
+.card:hover{
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+}
