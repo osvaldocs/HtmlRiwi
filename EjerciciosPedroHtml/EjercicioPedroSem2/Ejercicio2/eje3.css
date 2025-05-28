@@ -1,0 +1,28 @@
+
+p {
+    color: blue;
+}
+
+.text {
+    color: green;
+}
+
+#unique {
+    color: red ;
+}
+
+div p.text  {
+    color: purple;
+}
+
+div p {
+    font-weight: bold;
+}
+
+p:first-child {
+    text-decoration: underline;
+}
+
+p:first-letter {
+    font-size: 200%;
+}

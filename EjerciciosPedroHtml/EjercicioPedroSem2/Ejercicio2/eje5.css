@@ -1,0 +1,30 @@
+
+body {
+    font: Arial, sans-serif;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #333333;
+}
+
+.paragraph {
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.special {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#quote {
+    font-style: italic;
+    quotes: "«" "»";
+}

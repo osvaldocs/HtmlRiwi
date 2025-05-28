@@ -1,0 +1,38 @@
+
+.rotate-box {
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+.rotate-box:hover {
+    transform: rotate(90deg);
+    background-color: green;
+    transition:  0.5s;
+}
+
+.scale-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+    transition: 0.5s;
+}
+
+.scale-box:hover {
+    transform: scale(1.5);
+}
+
+.translate-box {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: yellow;
+   
+}
+
+.translate-box:hover {
+    transform: translate(50px, 20px);
+}

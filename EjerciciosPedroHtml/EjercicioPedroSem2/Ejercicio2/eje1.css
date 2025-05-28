@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial;
+}
+
+.container {
+    background-color:rgb(109, 160, 43) ;
+    width: 300px;
+    height: 400px;
+    margin:20px;
+    position: relative;
+
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 2px solid #333;
+    margin: 20px;
+    display: inline-block;
+}
+
+#special-box {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-color: yellow;
+}
+
+.fixed-box {
+    margin: 20px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    top: 150px;
+    left: 100px;
+}
