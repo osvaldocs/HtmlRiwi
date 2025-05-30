@@ -1,0 +1,172 @@
+body{
+      background-color: #7D80Da;
+}
+
+div{
+   color: lightsalmon;
+}
+
+#special{
+    color: mediumspringgreen;
+}
+
+header {
+    background-color: #6c596e;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.5);
+    
+    
+}
+
+nav{
+text-align: center;
+align-items: center;
+}
+
+a{
+   color: lightsalmon;
+}
+.logo-container{
+    float: left;
+}
+
+#logoR{
+    width: 200px;
+}
+
+#logoG{
+    width: 50px;
+}
+
+.box{
+    background-color: midnightblue;
+    border: 2px solid grey;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.5);
+    padding: 25px;
+    margin: 15px;
+}
+
+.content{
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+    border: 5px solid rgba(19, 26, 19, 0.541);
+    display: flex;
+
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px ;
+    height: 100px ;
+    background-color: green;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: crimson;
+    padding: 10px;
+}
+
+
+.rotate-box{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    transition: 0.5s;
+    margin: 50px;
+    color: rgb(31, 70, 177);
+    display: inline-block;
+   transition:  transform 0.3s ease-in-out;
+   
+}
+
+.rotate-box:hover{
+    transform: rotate(90deg);
+    background-color: crimson;
+    color: cornsilk;
+}
+
+.translate-box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 123, 0);
+    transition: 0.5s;
+    margin: 50px;
+    color: rgb(31, 70, 177);
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.translate-box:hover {
+    transform: translate(50px,20px);
+}
+
+.scale-box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(23, 212, 102);
+    transition: 0.5s;
+    margin: 50px;
+    color: rgb(31, 70, 177);
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.scale-box:hover{
+    transform: scale(1.5);
+}
+
+.skew-box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 14, 64);
+    transition: 0.5s;
+    margin: 50px;
+    color: rgb(31, 70, 177);
+    display: inline-block;
+   transition:  transform 0.3s ease-in-out;
+}
+
+.skew-box:hover{
+    transform: skew(-20deg);
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.box::before {
+    content: "NEW! ";
+    color: red;
+    font-weight: bold;
+}
+
+.fade-in{
+    animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer{
+    background-color: #c6afb1;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
