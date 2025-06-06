@@ -17,12 +17,12 @@
         <li>
           <a class="dropdown-toggle" href="#">Servicios</a>
           <ul class="dropdown-menu">
-            <li><a href="#tienda"></a></li>
-            <li><a href="#cursos"></a></li>
-            <li><a href="#menu"></a></li>
+            <li><a href="#tienda">Tienda</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#menu">Menú</a></li>
           </ul>
         </li>
-        <li><a href="#name  ">Contacto</a></li>
+        <li><a href="#name">Contacto</a></li>
       </ul>
     </nav>
   </header> 
@@ -62,18 +62,21 @@
   
 
   <div class="sub-footer">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3378581271454!2d-75.5836149!3d6.219100999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi!5e0!3m2!1ses!2sco!4v1749142542290!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <form id="message-form">
-      <label for="name">Nombre:</label>
-      <input type="text"name="name" id="name" required placeholder="nombre">
+    <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3378581271454!2d-75.5836149!3d6.219100999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi!5e0!3m2!1ses!2sco!4v1749142542290!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="contenedor-formulario">
+      <h3>Dejanos tu mensaje:</h3>
+      <form id="message-form">
+        <label for="name">Nombre:</label>
+        <input type="text"name="name" id="name" required placeholder="nombre">
 
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required placeholder="email">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="email">
 
-      <label for="mensaje">Mensaje:</label>
-      <textarea name="mensaje" id="mensaje" rows="6" required placeholder="mensaje"></textarea>
-      <button type="submit">Enviar mensaje</button>
-    </form>
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" rows="6" required placeholder="mensaje"></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </div>
   </div>
   <footer>
     <p>2025 Responsive Web Design. No Copyrigth.</p>

@@ -54,10 +54,16 @@ header{
 }
 
 .texto-superpuesto {
-  position: relative;
+  
+  position: absolute;
+  top: 60%;
+  left: 50%;
+   transform: translate(-50%, -50%);
   z-index: 1;
   color: white;
   font-family: 'Neutra-Text-Demi-Alt', Arial, sans-serif;
+  text-align: center  ;
+ 
 }
 
 h2{
@@ -117,14 +123,14 @@ nav ul li a {
 }
 
 /* Mostrar el menú al pasar el cursor sobre el enlace */
-.dropdown-toggle:hover + .dropdown-menu {
-  display: block; /* Muestra el menú */
+li:hover .dropdown-menu {
+  display: block;
 }
 
 /* Estilo del menú desplegable */
 .dropdown-menu {
   position: absolute; /* Posiciona el menú en relación al elemento padre */
-  background-color: #070707; /* Color de fondo del menú */
+  background-color: #3b3431; /* Color de fondo del menú */
   min-width: 160px; /* Ancho mínimo del menú */
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Sombra */
   z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
@@ -209,23 +215,48 @@ main {
   align-items: center;
 }
 
+.contenedor-formulario {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+}
+
 #message-form {
+  width: 100%;
+  max-width: 500px;
   font: bold;
-  background-color: rgb(252, 248, 247);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   border: 1px grey;
 }
 
+.form-container h3 {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #3b3431;
+  font-family: 'Neutra-Text-Demi-Alt', Arial, sans-serif;
+}
 
+.iframe {
 
+  height: 100%;
+  object-fit: cover;
+
+}
 
 footer {
   padding: 10px;
   text-align: center;
   margin-top: auto;
   bottom: 0;
-  width: 100%;
+  width: 100%;  
   background-color:#1e8a9d;
 }
 
+footer p {
+  font-size: medium;
+}
